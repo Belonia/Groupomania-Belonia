@@ -14,7 +14,8 @@
 .logo{
     font-size: 22px;
     margin-left: 20px;
-    color: white;
+    color:  #FD2D01;
+
     cursor:pointer;
 }
 .topbarCenter{
@@ -46,11 +47,14 @@ outline: none;
     align-items:center;
     justify-content: space-around;
     color: white;
+    
 }
+
 .topbarLink{
-    margin-right: 10px;
+    padding-left: 70px;
     font-size: 15px;
     cursor: pointer;
+   
 }
 .topbarIcons{
     display: flex;
