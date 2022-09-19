@@ -69,7 +69,8 @@ exports.login = (req, res, next) => {
           }
           res.status(200).json({
             userId: user._id,
-            token: jwt.sign({ userId: user._id }, SECRET_KEY, {
+            isAdmin : user.isAdmin,
+            token: jwt.sign({ userId: user._id , isAdmin :user.isAdmin }, SECRET_KEY, {
               expiresIn: "24h",
             }),
           });
