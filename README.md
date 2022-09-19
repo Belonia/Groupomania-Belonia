@@ -1,4 +1,6 @@
 # Groupomania-Belonia
-Projet groupomania
+Projet GROUPOMANIA
+
 Pour lancer l'API effectuez nodemon server
-Pour lancer le frontend lancer npm start
+
+Pour lancer le frontend effectuez npm start
